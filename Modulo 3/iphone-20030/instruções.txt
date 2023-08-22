@@ -1,0 +1,27 @@
+Interfaces:
+
+ReprodutorMusical
+
+Métodos:
+tocar()
+pausar()
+selecionarMusica(String musica)
+
+AparelhoTelefonico
+
+Métodos:
+ligar(String numero)
+atender()
+iniciarCorreioVoz()
+
+NavegadorInternet
+
+Métodos:
+exibirPagina(String url)
+adicionarNovaAba(String url)
+atualizarPagina()
+Classes:
+
+iPhone
+Implementa as interfaces ReprodutorMusical, AparelhoTelefonico e NavegadorInternet.
+Métodos sobrescritos de cada interface, de acordo com os comportamentos esperados.
