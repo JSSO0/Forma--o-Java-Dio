@@ -1,16 +1,16 @@
-public class ContaPoupanca {
-    public int agencia;
-    public int numero;
-    public double saldo;
+public class ContaPoupanca extends Conta {
 
-    public void sacar(){
+    public ContaPoupanca(Cliente cliente) {
+        super(cliente);
+        //TODO Auto-generated constructor stub
+    }
 
+    @Override
+    public void imprimirExtrato() {
+        System.out.println("*** Extrato da conta corrente ***");
+        super.imprimirInfosComuns();
     }
-    public void depositar(){
-    
-    }
-    
-    public void transferir(){
-        
-    }
+
+
+
 }

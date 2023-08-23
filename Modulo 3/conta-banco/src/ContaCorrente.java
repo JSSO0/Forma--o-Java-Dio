@@ -1,17 +1,15 @@
-public class ContaCorrente {
-    public int agencia;
-    public int numero;
-    public double saldo;
-    
-public void sacar(){
+public class ContaCorrente extends Conta {
 
-}
-public void depositar(){
+    public ContaCorrente(Cliente cliente) {
+        super(cliente);
+        //TODO Auto-generated constructor stub
+    }
 
-}
+    @Override
+    public void imprimirExtrato() {
+        System.out.println("*** Extrato da conta poupança ***");
+        super.imprimirInfosComuns();
 
-public void transferir(){
-    
-}
+    }
 
 }
