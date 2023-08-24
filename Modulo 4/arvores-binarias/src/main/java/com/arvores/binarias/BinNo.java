@@ -1,4 +1,4 @@
-package com.arvores.binarias.model;
+package com.arvores.binarias;
 
 public class BinNo<T extends Comparable<T>> {
 
