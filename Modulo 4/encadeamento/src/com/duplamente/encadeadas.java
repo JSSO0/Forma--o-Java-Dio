@@ -1,2 +1,4 @@
-package com.duplamente;public class encadeadas {
+package com.duplamente;
+
+public class encadeadas {
 }
